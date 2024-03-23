@@ -1,0 +1,269 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "paths": {
+      "@/test/*": [
+        "./test/*"
+      ],
+      "@typed/async-data": [
+        "packages/async-data/build/esm/index.js"
+      ],
+      "@typed/async-data/*": [
+        "packages/async-data/build/esm/*"
+      ],
+      "@typed/async-data/test/*": [
+        "packages/async-data/build/test/*"
+      ],
+      "@typed/async-data/examples/*": [
+        "packages/async-data/build/examples/*"
+      ],
+      "@typed/compiler": [
+        "packages/compiler/build/esm/index.js"
+      ],
+      "@typed/compiler/*": [
+        "packages/compiler/build/esm/*"
+      ],
+      "@typed/compiler/test/*": [
+        "packages/compiler/build/test/*"
+      ],
+      "@typed/compiler/examples/*": [
+        "packages/compiler/build/examples/*"
+      ],
+      "@typed/context": [
+        "packages/context/build/esm/index.js"
+      ],
+      "@typed/context/*": [
+        "packages/context/build/esm/*"
+      ],
+      "@typed/context/test/*": [
+        "packages/context/build/test/*"
+      ],
+      "@typed/context/examples/*": [
+        "packages/context/build/examples/*"
+      ],
+      "@typed/core": [
+        "packages/core/build/esm/index.js"
+      ],
+      "@typed/core/*": [
+        "packages/core/build/esm/*"
+      ],
+      "@typed/core/test/*": [
+        "packages/core/build/test/*"
+      ],
+      "@typed/core/examples/*": [
+        "packages/core/build/examples/*"
+      ],
+      "@typed/decoder": [
+        "packages/decoder/build/esm/index.js"
+      ],
+      "@typed/decoder/*": [
+        "packages/decoder/build/esm/*"
+      ],
+      "@typed/decoder/test/*": [
+        "packages/decoder/build/test/*"
+      ],
+      "@typed/decoder/examples/*": [
+        "packages/decoder/build/examples/*"
+      ],
+      "@typed/dom": [
+        "packages/dom/build/esm/index.js"
+      ],
+      "@typed/dom/*": [
+        "packages/dom/build/esm/*"
+      ],
+      "@typed/dom/test/*": [
+        "packages/dom/build/test/*"
+      ],
+      "@typed/dom/examples/*": [
+        "packages/dom/build/examples/*"
+      ],
+      "@typed/environment": [
+        "packages/environment/build/esm/index.js"
+      ],
+      "@typed/environment/*": [
+        "packages/environment/build/esm/*"
+      ],
+      "@typed/environment/test/*": [
+        "packages/environment/build/test/*"
+      ],
+      "@typed/environment/examples/*": [
+        "packages/environment/build/examples/*"
+      ],
+      "@typed/fx": [
+        "packages/fx/build/esm/index.js"
+      ],
+      "@typed/fx/*": [
+        "packages/fx/build/esm/*"
+      ],
+      "@typed/fx/test/*": [
+        "packages/fx/build/test/*"
+      ],
+      "@typed/fx/examples/*": [
+        "packages/fx/build/examples/*"
+      ],
+      "@typed/id": [
+        "packages/id/build/esm/index.js"
+      ],
+      "@typed/id/*": [
+        "packages/id/build/esm/*"
+      ],
+      "@typed/id/test/*": [
+        "packages/id/build/test/*"
+      ],
+      "@typed/id/examples/*": [
+        "packages/id/build/examples/*"
+      ],
+      "@typed/navigation": [
+        "packages/navigation/build/esm/index.js"
+      ],
+      "@typed/navigation/*": [
+        "packages/navigation/build/esm/*"
+      ],
+      "@typed/navigation/test/*": [
+        "packages/navigation/build/test/*"
+      ],
+      "@typed/navigation/examples/*": [
+        "packages/navigation/build/examples/*"
+      ],
+      "@typed/path": [
+        "packages/path/build/esm/index.js"
+      ],
+      "@typed/path/*": [
+        "packages/path/build/esm/*"
+      ],
+      "@typed/path/test/*": [
+        "packages/path/build/test/*"
+      ],
+      "@typed/path/examples/*": [
+        "packages/path/build/examples/*"
+      ],
+      "@typed/route": [
+        "packages/route/build/esm/index.js"
+      ],
+      "@typed/route/*": [
+        "packages/route/build/esm/*"
+      ],
+      "@typed/route/test/*": [
+        "packages/route/build/test/*"
+      ],
+      "@typed/route/examples/*": [
+        "packages/route/build/examples/*"
+      ],
+      "@typed/router": [
+        "packages/router/build/esm/index.js"
+      ],
+      "@typed/router/*": [
+        "packages/router/build/esm/*"
+      ],
+      "@typed/router/test/*": [
+        "packages/router/build/test/*"
+      ],
+      "@typed/router/examples/*": [
+        "packages/router/build/examples/*"
+      ],
+      "@typed/storybook": [
+        "packages/storybook/build/esm/index.js"
+      ],
+      "@typed/storybook/*": [
+        "packages/storybook/build/esm/*"
+      ],
+      "@typed/storybook/test/*": [
+        "packages/storybook/build/test/*"
+      ],
+      "@typed/storybook/examples/*": [
+        "packages/storybook/build/examples/*"
+      ],
+      "@typed/template": [
+        "packages/template/build/esm/index.js"
+      ],
+      "@typed/template/*": [
+        "packages/template/build/esm/*"
+      ],
+      "@typed/template/test/*": [
+        "packages/template/build/test/*"
+      ],
+      "@typed/template/examples/*": [
+        "packages/template/build/examples/*"
+      ],
+      "@typed/ui": [
+        "packages/ui/build/esm/index.js"
+      ],
+      "@typed/ui/*": [
+        "packages/ui/build/esm/*"
+      ],
+      "@typed/ui/test/*": [
+        "packages/ui/build/test/*"
+      ],
+      "@typed/ui/examples/*": [
+        "packages/ui/build/examples/*"
+      ],
+      "@typed/wire": [
+        "packages/wire/build/esm/index.js"
+      ],
+      "@typed/wire/*": [
+        "packages/wire/build/esm/*"
+      ],
+      "@typed/wire/test/*": [
+        "packages/wire/build/test/*"
+      ],
+      "@typed/wire/examples/*": [
+        "packages/wire/build/examples/*"
+      ]
+    }
+  },
+  "include": [
+    "packages/async-data/build/esm/**/*",
+    "packages/async-data/build/test/**/*",
+    "packages/async-data/build/examples/**/*",
+    "packages/compiler/build/esm/**/*",
+    "packages/compiler/build/test/**/*",
+    "packages/compiler/build/examples/**/*",
+    "packages/context/build/esm/**/*",
+    "packages/context/build/test/**/*",
+    "packages/context/build/examples/**/*",
+    "packages/core/build/esm/**/*",
+    "packages/core/build/test/**/*",
+    "packages/core/build/examples/**/*",
+    "packages/decoder/build/esm/**/*",
+    "packages/decoder/build/test/**/*",
+    "packages/decoder/build/examples/**/*",
+    "packages/dom/build/esm/**/*",
+    "packages/dom/build/test/**/*",
+    "packages/dom/build/examples/**/*",
+    "packages/environment/build/esm/**/*",
+    "packages/environment/build/test/**/*",
+    "packages/environment/build/examples/**/*",
+    "packages/fx/build/esm/**/*",
+    "packages/fx/build/test/**/*",
+    "packages/fx/build/examples/**/*",
+    "packages/id/build/esm/**/*",
+    "packages/id/build/test/**/*",
+    "packages/id/build/examples/**/*",
+    "packages/navigation/build/esm/**/*",
+    "packages/navigation/build/test/**/*",
+    "packages/navigation/build/examples/**/*",
+    "packages/path/build/esm/**/*",
+    "packages/path/build/test/**/*",
+    "packages/path/build/examples/**/*",
+    "packages/route/build/esm/**/*",
+    "packages/route/build/test/**/*",
+    "packages/route/build/examples/**/*",
+    "packages/router/build/esm/**/*",
+    "packages/router/build/test/**/*",
+    "packages/router/build/examples/**/*",
+    "packages/storybook/build/esm/**/*",
+    "packages/storybook/build/test/**/*",
+    "packages/storybook/build/examples/**/*",
+    "packages/template/build/esm/**/*",
+    "packages/template/build/test/**/*",
+    "packages/template/build/examples/**/*",
+    "packages/ui/build/esm/**/*",
+    "packages/ui/build/test/**/*",
+    "packages/ui/build/examples/**/*",
+    "packages/wire/build/esm/**/*",
+    "packages/wire/build/test/**/*",
+    "packages/wire/build/examples/**/*"
+  ]
+}

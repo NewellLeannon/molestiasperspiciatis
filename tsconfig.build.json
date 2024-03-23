@@ -1,0 +1,68 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [
+    {
+      "path": "packages/async-data"
+    },
+    {
+      "path": "packages/compiler"
+    },
+    {
+      "path": "packages/context"
+    },
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/decoder"
+    },
+    {
+      "path": "packages/dom"
+    },
+    {
+      "path": "packages/environment"
+    },
+    {
+      "path": "packages/fx"
+    },
+    {
+      "path": "packages/id"
+    },
+    {
+      "path": "packages/navigation"
+    },
+    {
+      "path": "packages/path"
+    },
+    {
+      "path": "packages/route"
+    },
+    {
+      "path": "packages/router"
+    },
+    {
+      "path": "packages/storybook"
+    },
+    {
+      "path": "packages/template"
+    },
+    {
+      "path": "packages/ui"
+    },
+    {
+      "path": "packages/wire"
+    },
+    {
+      "path": "examples/counter"
+    },
+    {
+      "path": "examples/fx-tracing"
+    },
+    {
+      "path": "examples/simple-ssr"
+    },
+    {
+      "path": "examples/todomvc"
+    }
+  ]
+}
